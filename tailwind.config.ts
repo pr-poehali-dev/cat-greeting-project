@@ -1,96 +1,84 @@
-import type { Config } from "tailwindcss";
 
-export default {
-	darkMode: ["class"],
-	content: [
-		"./pages/**/*.{ts,tsx}",
-		"./components/**/*.{ts,tsx}",
-		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
-	],
-	prefix: "",
-	theme: {
-		container: {
-			center: true,
-			padding: '2rem',
-			screens: {
-				'2xl': '1400px'
-			}
-		},
-		extend: {
-			colors: {
-				border: 'hsl(var(--border))',
-				input: 'hsl(var(--input))',
-				ring: 'hsl(var(--ring))',
-				background: 'hsl(var(--background))',
-				foreground: 'hsl(var(--foreground))',
-				primary: {
-					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
-				},
-				secondary: {
-					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
-				},
-				destructive: {
-					DEFAULT: 'hsl(var(--destructive))',
-					foreground: 'hsl(var(--destructive-foreground))'
-				},
-				muted: {
-					DEFAULT: 'hsl(var(--muted))',
-					foreground: 'hsl(var(--muted-foreground))'
-				},
-				accent: {
-					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
-				},
-				popover: {
-					DEFAULT: 'hsl(var(--popover))',
-					foreground: 'hsl(var(--popover-foreground))'
-				},
-				card: {
-					DEFAULT: 'hsl(var(--card))',
-					foreground: 'hsl(var(--card-foreground))'
-				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				}
-			},
-			borderRadius: {
-				lg: 'var(--radius)',
-				md: 'calc(var(--radius) - 2px)',
-				sm: 'calc(var(--radius) - 4px)'
-			},
-			keyframes: {
-				'accordion-down': {
-					from: {
-						height: '0'
-					},
-					to: {
-						height: 'var(--radix-accordion-content-height)'
-					}
-				},
-				'accordion-up': {
-					from: {
-						height: 'var(--radix-accordion-content-height)'
-					},
-					to: {
-						height: '0'
-					}
-				}
-			},
-			animation: {
-				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
-		}
-	},
-	plugins: [require("tailwindcss-animate")],
-} satisfies Config;
+import type { Config } from 'tailwindcss'
+
+const config: Config = {
+  darkMode: ["class"],
+  content: [
+    './2, 3,pages/**/*.{ts, 4, 5, 6].map((i) => (
+            <div key={i} classNametsx}',
+    './components/**="aspect-square bg-pink-100 rounded overflow-hidden">/*.{ts,tsx}',
+    './app/**
+              <img
+                src={`https://images.unsplash./*.{ts,tsx}',com/photo-157${
+    './src/**/*.{ts,tsx}',
+  ],
+  1000000 + i}prefix: "",
+  theme:0000-${i {
+    container: {
+      center: true,}000-4
+      padding: "2000-8000-rem",
+      screens: {
+        "2xl":00000000000${ "1400px",
+      i}?w=100},
+    },
+    extend: {
+      fontFamily: {&q=80`}
+                
+        'montserrat': ['Montserratalt={`Instagram post ${i}`', 'sans-serif'],}
+                className="w-full
+        'open-sans': [' h-full object-cover hoverOpen Sans', 'sans-serif'],
+      },
+      colors:scale-110 transition-transform: {
+        border cursor-pointer"
+              />
+            </div>
+          ))}
+        </div>: "hsl(var(--
+        border))",
+        input: "hsl(var<a href="#" className="(--input))",
+        ringblock text-center text: "hsl(var(---pink-500 textring))",
+        background: "hsl(var(--background)-sm font-medium mt-)",
+        foreground: "h3 hover:text-sl(var(--foreground)pink-600">
+          @beautylife_ru
+        </a>
+      </div>)",
+        primary: {
+          
+
+      {/* Another Ad */}
+      <AdBanner
+        titleDEFAULT: "#D946EF",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        secondary: {
+          DEFAULT: "#F="Лучшие к97316",
+          ремы 2025"foreground: "hsl(var
+        description="Рейтинг от(--secondary-foreground))",
+        },
+        destructive: экспертов" {
+          DEFAULT: "
+        image="https://images.unsplash.com/photo-1570hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-194065650-d99foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted))",fb4bedf0
+          foreground: "hsl(var(--a?w=400muted-foreground))",&q=80"
+        size
+        },
+        accent: {="small"
+        discount="
+          DEFAULT: "ТОП-10"
+      />hsl(var(--accent))",
+          foreground: "h
+    </div>
+  );sl(var(
+};
+
+export default Sidebar;--accent-foreground))",
+        },
+        popover: {
+          DEFAULT: "hsl(var(--popover))",
+          foreground: "hsl(var(--popover-foreground))",
+        },
+        card: {
+          DEFAULT: "h
